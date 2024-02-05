@@ -36,12 +36,12 @@ namespace FizzBuzz
                 Console.WriteLine(Convert.ToString(i) + "    " + message);
                 
             }
+            Console.WriteLine("Developed by Julio Polo");
+            Console.WriteLine("Date : {0}", DateTime.Now);
             Console.WriteLine("Número de Fizz = " + conteoFizz.ToString());
             Console.WriteLine("Número de Buzz = " + conteoBuzz.ToString());
             Console.WriteLine("Número de FizzBuzz = " + conteo.ToString());
             Console.WriteLine("Presione una tecla para terminar");
-            Console.WriteLine("Develop by Julio Polo");
-            Console.WriteLine("Date : {0}", DateTime.Now);
             Console.ReadLine();
         }
     }
